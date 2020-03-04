@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js -p $PORT",
     "build": "next build",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "13.3.0",
