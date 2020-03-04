@@ -102,13 +102,13 @@ export default class ContactBody extends React.Component {
                                     <h3>Mail Here</h3>
                                     <p>
                                         <Link href="#">
-                                            <a>admin@startp.com</a>
+                                            <a>info@techtitans.ca</a>
                                         </Link>
                                     </p>
                                     <p>
-                                        <Link href="#">
+                                        {/* <Link href="#">
                                             <a>info@startp.com</a>
-                                        </Link>
+                                        </Link> */}
                                     </p>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ export default class ContactBody extends React.Component {
                                         <Icon.Map />
                                     </div>
                                     <h3>Visit Here</h3>
-                                    <p>27 Division St, New York, NY 10002, <br /> USA</p>
+                                    <p> 2761 Markham Rd #27,  <br /> Scarborough, ON M1X 1M4</p>
                                 </div>
                             </div>
 
@@ -131,13 +131,13 @@ export default class ContactBody extends React.Component {
                                     <h3>Call Here</h3>
                                     <p>
                                         <Link href="#">
-                                            <a>+123 456 7890</a>
+                                            <a>+ 1 (416) 335-4777</a>
                                         </Link>
                                     </p>
                                     <p>
-                                        <Link href="#">
+                                        {/* <Link href="#">
                                             <a>+241 452 4526</a>
-                                        </Link>
+                                        </Link> */}
                                     </p>
                                 </div>
                             </div>

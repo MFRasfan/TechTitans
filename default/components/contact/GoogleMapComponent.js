@@ -6,8 +6,8 @@ const CustomComponent = ({ text }) => <div><img src={require('../../static/image
 export default class GoogleMapComponent extends Component {
     static defaultProps = {
         center: {
-            lat: 59.95,
-            lng: 30.33
+            lat: 43.784550,
+            lng: -79.234810
         },
         zoom: 11
     };
@@ -17,13 +17,13 @@ export default class GoogleMapComponent extends Component {
             // Important! Always set the container height explicitly
             <div className="map-content">
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: 'AIzaSyDTWAxQ7Z4GNC28ljvgSDBAmTiZ-eYiGog' }}
+                    bootstrapURLKeys={{ key: 'AIzaSyCgf_gvbDZZS7sysDvgaBt51Uuc_1ECZM4' }}
                     defaultCenter={this.props.center}
                     defaultZoom={this.props.zoom}
                 >
                     <CustomComponent
-                        lat={59.955413}
-                        lng={30.337844}
+                        lat={43.784550}
+                        lng={-79.234810}
                         text="Marker"
                     />
                 </GoogleMapReact>

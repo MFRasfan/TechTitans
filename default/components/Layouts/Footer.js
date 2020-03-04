@@ -90,7 +90,7 @@ export default class Footer extends React.Component {
                                     </li>
                                     <li>
                                         <Icon.Mail />
-                                        Email: <Link href="#"><a>info@techtitans.ca/</a></Link>
+                                        Email: <Link href="#"><a>info@techtitans.ca</a></Link>
                                     </li>
                                     <li> 
                                         <Icon.PhoneCall />
