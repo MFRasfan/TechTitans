@@ -2,11 +2,11 @@
   "name": "techtitans",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "node server.js -p $PORT",
-    "build": "next build",
-    "start": "node index.js"
+    // "dev": "node server.js -p $PORT",
+    // "build": "next build",
+    "start": "node server.js"
   },
   "engines": {
     "node": "13.3.0",
