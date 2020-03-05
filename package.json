@@ -72,7 +72,8 @@
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "webpack": "^4.41.2"
+    "webpack": "^4.42.0",
+    "webpack-dev-server": "^3.10.3"
   },
   "bugs": {
     "url": "https://github.com/MFRasfan/TechTitans/issues"
