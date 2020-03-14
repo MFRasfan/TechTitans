@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "webpage",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production server.js"
-  },
+  "script": {
+    "build": "next build",
+    "heroku-postbuild": "npm run build",
+    "start": "next start"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MFRasfan/TechTitans.git"
