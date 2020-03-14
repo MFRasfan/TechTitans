@@ -4,8 +4,10 @@
   "description": "webpage",
   "main": "index.js",
   "script": {
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start -p $PORT"
   },
   "repository": {
     "type": "git",
