@@ -7,7 +7,7 @@
     "build": "next build",
     "heroku-postbuild": "npm run build",
     "start": "next start"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MFRasfan/TechTitans.git"
