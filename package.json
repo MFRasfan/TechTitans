@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "webpage",
   "main": "index.js",
-  "script": {
     "scripts": {
       "dev": "next",
       "build": "next build",
