@@ -177,12 +177,6 @@ false,
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 false,
 
-/***/ "./node_modules/next/node_modules/webpack/buildin/global.js":
-false,
-
-/***/ "./node_modules/next/node_modules/webpack/buildin/module.js":
-false,
-
 /***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
 false,
 
@@ -234,6 +228,12 @@ false,
 /***/ "./node_modules/url/util.js":
 false,
 
+/***/ "./node_modules/webpack/buildin/global.js":
+false,
+
+/***/ "./node_modules/webpack/buildin/module.js":
+false,
+
 /***/ "./pages/_error.js":
 false,
 
@@ -241,4 +241,4 @@ false,
 false
 
 })
-//# sourceMappingURL=_error.js.eab6600a665b47e94cb9.hot-update.js.map
+//# sourceMappingURL=_error.js.edb65ec83f376c3fae9a.hot-update.js.map
