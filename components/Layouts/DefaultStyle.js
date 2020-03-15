@@ -89,71 +89,9 @@ class DefaultStyle extends React.Component {
                                     
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/">
-                                            <a href="#" className="nav-link">Services</a>
+                                            <a className="nav-link">Services</a>
                                         </Link>
-                                        <ul className="dropdown_menu">
-                                            <li className="nav-item">
-                                               
-                                            </li>
-
-                                            <li className="nav-item">
-                                                
-                                                <ul className="dropdown_menu">
-                                                    <li className="nav-item">
-                                                       
-                                                    </li>
-                                                    
-                                                    <li className="nav-item">
-                                                      
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                
-                                                <ul className="dropdown_menu">
-                                                    <li className="nav-item">
-                                                       >
-                                                    </li>
-                                                    
-                                                    <li className="nav-item">
-                                                        
-                                                    </li>
-                                                </ul>
-                                            </li>
-    
-                                            <li className="nav-item">
-                                               
-                                            </li>
-    
-                                            <li className="nav-item">
-                                               
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                
-                                            </li>
-
-                                            <li className="nav-item">
-                                               
-                                            </li>
-
-                                            <li className="nav-item">
-                                               
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <ul className="dropdown_menu">
-                                            <li className="nav-item">
-                                               
-                                            </li>
-
-                                            <li className="nav-item">
-                                                
-                                            </li>
-                                        </ul>
+                                       
                                     </li>
 
                                     
