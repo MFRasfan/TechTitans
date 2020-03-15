@@ -4852,7 +4852,7 @@ var Error = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2FUsers%2Fmfrasfan%2FDocuments%2FCoding%2FTechTitans%2Fpages%2F_error.js ***!
   \************************************************************************************************************************************************/
@@ -4875,5 +4875,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
