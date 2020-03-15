@@ -225,7 +225,7 @@ p:last-child {
   width: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: #c679e3;
+  background: #2B3990;
   z-index: -1;
 }
 
@@ -259,12 +259,12 @@ p:last-child {
 
 .btn.btn-secondary::before {
   border-radius: 0;
-  background: #c679e3;
+  background: #2B3990;
 }
 
 .btn.btn-secondary::after {
   border-radius: 0;
-  background: #c679e3;
+  background: #2B3990;
 }
 
 .btn.btn-secondary:not(:disabled):not(.disabled).active, .btn.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn.btn-secondary.dropdown-toggle {
@@ -367,7 +367,7 @@ label {
 
 .section-title .sub-title {
   display: inline-block;
-  color: #c679e3;
+  color: #2B3990;
   background-color: #f5dffd;
   margin-bottom: 18px;
   border-radius: 30px;
@@ -641,7 +641,7 @@ Navbar CSS
 }
 
 .startp-nav nav .others-option .btn.btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -1253,12 +1253,12 @@ Boxes CSS
   background: rgba(247, 138, 203, 0.3);
 }
 
-.single-box.bg-c679e3 {
+.single-box.bg-2B3990 {
   border-color: #edc3fc;
 }
 
-.single-box.bg-c679e3 .icon {
-  color: #c679e3;
+.single-box.bg-2B3990 .icon {
+  color: #2B3990;
   background: #edc3fc;
 }
 
@@ -1295,8 +1295,8 @@ Boxes CSS
   color: #f78acb;
 }
 
-.single-box:hover.bg-c679e3 .icon {
-  color: #c679e3;
+.single-box:hover.bg-2B3990 .icon {
+  color: #2B3990;
 }
 
 .single-box:hover.bg-eb6b3d .icon {
@@ -1785,8 +1785,8 @@ Services CSS
   transition: 0.5s;
 }
 
-.single-services-box .icon.bg-c679e3 {
-  color: #c679e3;
+.single-services-box .icon.bg-2B3990 {
+  color: #2B3990;
   background: #edc3fc;
 }
 
@@ -1828,8 +1828,8 @@ Services CSS
   color: #ffffff;
 }
 
-.single-services-box:hover .icon.bg-c679e3 {
-  background: #c679e3;
+.single-services-box:hover .icon.bg-2B3990 {
+  background: #2B3990;
 }
 
 .single-services-box:hover .icon.bg-eb6b3d {
@@ -1974,8 +1974,8 @@ Features CSS
   transition: 0.5s;
 }
 
-.single-features .icon.bg-c679e3 {
-  color: #c679e3;
+.single-features .icon.bg-2B3990 {
+  color: #2B3990;
   background: #edc3fc;
 }
 
@@ -1996,8 +1996,8 @@ Features CSS
   color: #ffffff;
 }
 
-.single-features:hover .icon.bg-c679e3 {
-  background: #c679e3;
+.single-features:hover .icon.bg-2B3990 {
+  background: #2B3990;
 }
 
 .single-features:hover .icon.bg-eb6b3d {
@@ -2041,8 +2041,8 @@ Features CSS
   transition: 0.5s;
 }
 
-.single-hosting-features .icon.bg-c679e3 {
-  color: #c679e3;
+.single-hosting-features .icon.bg-2B3990 {
+  color: #2B3990;
   background: #edc3fc;
 }
 
@@ -2084,8 +2084,8 @@ Features CSS
   color: #ffffff;
 }
 
-.single-hosting-features:hover .icon.bg-c679e3 {
-  background: #c679e3;
+.single-hosting-features:hover .icon.bg-2B3990 {
+  background: #2B3990;
 }
 
 .single-hosting-features:hover .icon.bg-eb6b3d {
@@ -2279,7 +2279,7 @@ Team CSS
 }
 
 .single-team .team-content ul li a {
-  color: #c679e3;
+  color: #2B3990;
 }
 
 .single-team .team-content ul li a:hover {
@@ -2504,7 +2504,7 @@ Fun Facts CSS
 }
 
 .contact-cta-box .btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -2633,7 +2633,7 @@ Pricing CSS
 }
 
 .pricing-table.active-plan .btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -2706,7 +2706,7 @@ Pricing CSS
 }
 
 .single-pricing-table.active-plan .btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -2785,7 +2785,7 @@ Domain Search CSS
 }
 
 .domain-search-content form button:hover, .domain-search-content form button:focus {
-  background-color: #c679e3;
+  background-color: #2B3990;
 }
 
 .domain-search-content ul {
@@ -2859,7 +2859,7 @@ Feedback CSS
 
 .feedback-slides .client-feedback .single-feedback span {
   display: block;
-  color: #c679e3;
+  color: #2B3990;
   margin-top: 8px;
   margin-bottom: 18px;
 }
@@ -3082,7 +3082,7 @@ Feedback CSS
 .single-feedback-item .client-info .title span {
   display: block;
   margin-top: 8px;
-  color: #c679e3;
+  color: #2B3990;
 }
 
 .single-feedback-item p {
@@ -3131,7 +3131,7 @@ Ready To Talk CSS
 }
 
 .ready-to-talk .btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
 }
@@ -3623,7 +3623,7 @@ Shop CSS
 }
 
 .modal-content .products-content form button:hover, .modal-content .products-content form button:focus {
-  background-color: #c679e3;
+  background-color: #2B3990;
   color: #ffffff;
 }
 
@@ -3817,7 +3817,7 @@ Shop Details CSS
 }
 
 .products-details form button:hover, .products-details form button:focus {
-  background-color: #c679e3;
+  background-color: #2B3990;
   color: #ffffff;
 }
 
@@ -3839,9 +3839,9 @@ Shop Details CSS
 }
 
 .products-details form .add-to-wishlist-btn:hover, .products-details form .add-to-wishlist-btn:focus {
-  background-color: #c679e3;
+  background-color: #2B3990;
   color: #ffffff;
-  border-color: #c679e3;
+  border-color: #2B3990;
 }
 
 .products-details form .buy-btn {
@@ -3849,7 +3849,7 @@ Shop Details CSS
 }
 
 .products-details form .buy-btn .btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -5197,7 +5197,7 @@ Coming Soon CSS
 }
 
 .coming-soon-content form .submit-btn:hover, .coming-soon-content form .submit-btn:focus {
-  background-color: #c679e3;
+  background-color: #2B3990;
 }
 
 .coming-soon-content #timer div {
@@ -5206,7 +5206,7 @@ Coming Soon CSS
   border-radius: 50%;
   width: 110px;
   height: 110px;
-  color: #c679e3;
+  color: #2B3990;
   -webkit-box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.5);
   margin: 0 10px;
@@ -5312,7 +5312,7 @@ CTA CSS
 }
 
 .cta-right-content .buy-btn .btn-primary {
-  background: #c679e3;
+  background: #2B3990;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -5932,7 +5932,7 @@ Repair Feedback CSS
 
 .single-repair-feedback .client-img span {
   display: block;
-  color: #c679e3;
+  color: #2B3990;
   margin-top: 8px;
 }
 
@@ -6568,7 +6568,7 @@ Go Top CSS
   bottom: 30px;
   right: 0;
   color: #ffffff;
-  background-color: #c679e3;
+  background-color: #2B3990;
   z-index: 1;
   width: 45px;
   text-align: center;
@@ -6883,7 +6883,7 @@ ML About CSS
 
 .ml-about-content .sub-title {
   display: inline-block;
-  color: #c679e3;
+  color: #2B3990;
   background-color: #f5dffd;
   margin-bottom: 18px;
   border-radius: 30px;
@@ -7039,7 +7039,7 @@ ML Feedback CSS
 
 .single-ml-feedback-item .client-info span {
   display: block;
-  color: #c679e3;
+  color: #2B3990;
   margin-top: 5px;
   font-size: 13px;
 }
@@ -7253,7 +7253,7 @@ Free Trial Area CSS
 }
 
 .free-trial-content form button:hover {
-  background-color: #c679e3;
+  background-color: #2B3990;
   color: #ffffff;
 }
 
@@ -7350,7 +7350,7 @@ ML Projects Area CSS
 }
 
 .single-ml-projects-box .plus-icon a:hover {
-  background-color: #c679e3;
+  background-color: #2B3990;
 }
 
 .single-ml-projects-box:hover .plus-icon a {
@@ -7846,7 +7846,7 @@ Agency About CSS
 
 .agency-about-content .sub-title {
   display: inline-block;
-  color: #c679e3;
+  color: #2B3990;
   background-color: #f5dffd;
   margin-bottom: 18px;
   border-radius: 30px;
@@ -8048,7 +8048,7 @@ Testimonials CSS
 
 .single-testimonials-item .client-info span {
   display: block;
-  color: #c679e3;
+  color: #2B3990;
   margin-top: 5px;
   font-size: 13px;
 }
