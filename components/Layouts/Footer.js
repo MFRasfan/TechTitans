@@ -26,23 +26,23 @@ export default class Footer extends React.Component {
                                 <h3>Company</h3>
                                 <ul className="list">
                                 <li>
-                                        <Link href="/features">
+                                        <Link href="/">
                                             <a>Home</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/about">
+                                        <Link href="">
                                             <a>About Us</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">
+                                        <Link href="">
                                             <a>Services</a>
                                         </Link>
                                     </li>
                                    
                                     <li>
-                                        <Link href="/blog">
+                                        <Link href="/contact">
                                             <a>Contact Us</a>
                                         </Link>
                                     </li>

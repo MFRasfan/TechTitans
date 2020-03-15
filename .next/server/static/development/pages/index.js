@@ -510,7 +510,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/features",
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 29
@@ -529,7 +529,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/about",
+      href: "",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 34
@@ -548,7 +548,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/services",
+      href: "",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 39
@@ -567,7 +567,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog",
+      href: "/contact",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 45

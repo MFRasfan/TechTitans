@@ -466,7 +466,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/features",
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
@@ -485,7 +485,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/about",
+        href: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
@@ -504,7 +504,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/services",
+        href: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
@@ -523,7 +523,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/blog",
+        href: "/contact",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 45
