@@ -29,7 +29,7 @@ a:hover, a:focus {
 }
 
 .btn::after, .btn::before {
-  background: #44ce6f;
+  background: #0000CD	;
 }
 
 .section-title .bar {
@@ -85,7 +85,7 @@ a:hover, a:focus {
 }
 
 .startp-nav nav .others-option .btn.btn-primary {
-  background: #44ce6f;
+  background: #0000CD	;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
           box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
 }
@@ -153,7 +153,7 @@ a:hover, a:focus {
 }
 
 .single-team .team-content ul li a {
-  color: #44ce6f;
+  color: #0000CD	;
 }
 
 .single-team .team-content ul li a:hover {
@@ -169,7 +169,7 @@ a:hover, a:focus {
 }
 
 .contact-cta-box .btn {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .contact-cta-box .btn::before, .contact-cta-box .btn::after {
@@ -177,7 +177,7 @@ a:hover, a:focus {
 }
 
 .contact-cta-box .btn-primary {
-  background: #44ce6f;
+  background: #0000CD	;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
           box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
 }
@@ -200,7 +200,7 @@ a:hover, a:focus {
 }
 
 .pricing-table.active-plan .btn-primary {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .pricing-table.active-plan .btn-primary::after, .pricing-table.active-plan .btn-primary::before {
@@ -217,7 +217,7 @@ a:hover, a:focus {
 }
 
 .single-pricing-table.active-plan .btn-primary {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .single-pricing-table.active-plan .btn-primary::after, .single-pricing-table.active-plan .btn-primary::before {
@@ -234,7 +234,7 @@ a:hover, a:focus {
 }
 
 .domain-search-content form button:hover, .domain-search-content form button:focus {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .single-works::before {
@@ -246,7 +246,7 @@ a:hover, a:focus {
 }
 
 .feedback-slides .client-feedback .single-feedback span {
-  color: #44ce6f;
+  color: #0000CD	;
 }
 
 .feedback-slides .client-thumbnails .item .img-fill img {
@@ -274,7 +274,7 @@ a:hover, a:focus {
 }
 
 .single-feedback-item .client-info .title span {
-  color: #44ce6f;
+  color: #0000CD	;
 }
 
 .ready-to-talk {
@@ -282,7 +282,7 @@ a:hover, a:focus {
 }
 
 .ready-to-talk .btn-primary {
-  background: #44ce6f;
+  background: #0000CD	;
 }
 
 .single-blog-post .blog-image .date {
@@ -318,12 +318,12 @@ a:hover, a:focus {
 }
 
 .products-details form button:hover, .products-details form button:focus {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .products-details form .add-to-wishlist-btn:hover, .products-details form .add-to-wishlist-btn:focus {
-  background-color: #44ce6f;
-  border-color: #44ce6f;
+  background-color: #0000CD	;
+  border-color: #0000CD	;
 }
 
 .products-details form .buy-btn {
@@ -337,7 +337,7 @@ a:hover, a:focus {
 }
 
 .products-details form .buy-btn .btn-primary::after, .products-details form .buy-btn .btn-primary::before {
-  background: #44ce6f;
+  background: #0000CD	;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
           box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
 }
@@ -451,7 +451,7 @@ a:hover, a:focus {
 }
 
 .coming-soon-content form .submit-btn:hover, .coming-soon-content form .submit-btn:focus {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .cta-right-content .buy-btn .btn-primary:hover, .cta-right-content .buy-btn .btn-primary:focus {
@@ -499,7 +499,7 @@ a:hover, a:focus {
 }
 
 .single-repair-feedback .client-img span {
-  color: #44ce6f;
+  color: #0000CD	;
 }
 
 .iot-banner-content span {
@@ -523,7 +523,7 @@ a:hover, a:focus {
 }
 
 .section-title .sub-title {
-  color: #44ce6f;
+  color: #0000CD	;
   background-color: #d4f7df;
 }
 
@@ -534,11 +534,11 @@ a:hover, a:focus {
 }
 
 .btn.btn-secondary::before {
-  background: #44ce6f;
+  background: #0000CD	;
 }
 
 .btn.btn-secondary::after {
-  background: #44ce6f;
+  background: #0000CD	;
 }
 
 .btn.btn-secondary:not(:disabled):not(.disabled).active, .btn.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn.btn-secondary.dropdown-toggle {
@@ -557,7 +557,7 @@ a:hover, a:focus {
 }
 
 .ml-about-content .sub-title {
-  color: #44ce6f;
+  color: #0000CD	;
   background-color: #d4f7df;
 }
 
@@ -582,7 +582,7 @@ a:hover, a:focus {
 }
 
 .single-ml-feedback-item .client-info span {
-  color: #44ce6f;
+  color: #0000CD	;
 }
 
 .ml-feedback-slides .owl-dots .owl-dot span::before {
@@ -603,7 +603,7 @@ a:hover, a:focus {
 }
 
 .free-trial-content form button:hover {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .single-ml-projects-box .plus-icon a {
@@ -611,7 +611,7 @@ a:hover, a:focus {
 }
 
 .single-ml-projects-box .plus-icon a:hover {
-  background-color: #44ce6f;
+  background-color: #0000CD	;
 }
 
 .ml-projects-slides.owl-theme .owl-dots .owl-dot span::before {
@@ -632,7 +632,7 @@ a:hover, a:focus {
 }
 
 .agency-about-content .sub-title {
-  color: #44ce6f;
+  color: #0000CD	;
   background-color: #d4f7df;
 }
 
@@ -650,7 +650,7 @@ a:hover, a:focus {
 }
 
 .single-testimonials-item .client-info span {
-  color: #44ce6f;
+  color: #0000CD	;
 }
 
 .single-blog-post-item .post-content .post-meta li a:hover {
@@ -686,7 +686,7 @@ a:hover, a:focus {
 }
 
 .go-top:hover {
-  background: #44ce6f;
+  background: #0000CD	;
 }
 
 @media only screen and (max-width: 991px) {

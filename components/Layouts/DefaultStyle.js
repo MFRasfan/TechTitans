@@ -50,7 +50,7 @@ class DefaultStyle extends React.Component {
                                     className="navbar-brand"
                                     onClick={() => window.location.refresh()}
                                 >
-                                    <img src={require("../../static/images/logo.png")} alt="logo" />
+                                    <img src={require("../../static/images/TT.png")} alt="logo" />
                                 </a>
                             </Link>
 
