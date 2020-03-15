@@ -8110,13 +8110,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement;
         },
         __self: this
       }, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_9__["DefaultSeo"], {
-        title: "StartP - React Next IT Startups & Digital Services Template",
-        description: "StartP is a React and Bootstrap 4 based Professional website template. This has been built with React, ES6+ and as framework Next.js and Express.js.",
+        title: "TECH TITANS | Expanding Posibilities" // description="StartP is a React and Bootstrap 4 based Professional website template. This has been built with React, ES6+ and as framework Next.js and Express.js."
+        ,
         openGraph: {
           type: "website",
           locale: "en_IE",
-          url: "https://startp-react.envytheme.com/",
-          site_name: "StartP - React Next IT Startups & Digital Services Template"
+          // url: "https://startp-react.envytheme.com/",
+          site_name: "TECH TITANS | Expanding Posibilities"
         },
         __source: {
           fileName: _jsxFileName,

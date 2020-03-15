@@ -34,14 +34,14 @@ export default withRedux(initStore)(
             return (
               <Container>
                 <DefaultSeo
-                  title="StartP - React Next IT Startups & Digital Services Template"
-                  description="StartP is a React and Bootstrap 4 based Professional website template. This has been built with React, ES6+ and as framework Next.js and Express.js."
+                  title="TECH TITANS | Expanding Posibilities"
+                  // description="StartP is a React and Bootstrap 4 based Professional website template. This has been built with React, ES6+ and as framework Next.js and Express.js."
                   openGraph={{
                     type: "website",
                     locale: "en_IE",
-                    url: "https://startp-react.envytheme.com/",
+                    // url: "https://startp-react.envytheme.com/",
                     site_name:
-                      "StartP - React Next IT Startups & Digital Services Template"
+                      "TECH TITANS | Expanding Posibilities"
                   }}
                 />
                 <Head>
