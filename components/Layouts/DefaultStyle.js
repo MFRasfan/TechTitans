@@ -5,6 +5,7 @@ import Link from '../common/ActiveLink'
 // import * as Icon from 'react-feather';
 
 
+
 class DefaultStyle extends React.Component {
 
     state = {
@@ -83,12 +84,13 @@ class DefaultStyle extends React.Component {
 
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="">
-                                            <a className="nav-link">About</a>
+                                            <a className="nav-link">About Us</a>
+                                            
                                         </Link>
                                     </li>
                                     
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="/">
+                                        <Link activeClassName="active" href="">
                                             <a className="nav-link">Services</a>
                                         </Link>
                                        

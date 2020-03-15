@@ -96,7 +96,7 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         id: "header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         },
         __self: this
       }, __jsx("div", {
@@ -104,28 +104,28 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "startp-nav ".concat(layOutCls),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         },
         __self: this
       }, __jsx("nav", {
         className: "navbar navbar-expand-md navbar-light",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         },
         __self: this
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 49
         },
         __self: this
       }, __jsx("a", {
@@ -135,7 +135,7 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 50
         },
         __self: this
       }, __jsx("img", {
@@ -143,7 +143,7 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         alt: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 54
         },
         __self: this
       }))), __jsx("button", {
@@ -157,14 +157,14 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         "aria-label": "Toggle navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
       }, __jsx("span", {
         className: "navbar-toggler-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 67
         },
         __self: this
       })), __jsx("div", {
@@ -172,21 +172,21 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         id: "navbarSupportedContent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       }, __jsx("ul", {
         className: "navbar-nav nav ml-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 72
         },
         __self: this
       }, __jsx("a", {
@@ -197,7 +197,7 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 73
         },
         __self: this
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -205,7 +205,7 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 78
         },
         __self: this
       }, __jsx("a", {
@@ -213,14 +213,14 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 79
         },
         __self: this
       }, "Home")))), __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 85
         },
         __self: this
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -228,43 +228,43 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         href: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 86
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 87
         },
         __self: this
-      }, "About"))), __jsx("li", {
+      }, "About Us"))), __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 92
         },
         __self: this
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/",
+        href: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 93
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 94
         },
         __self: this
       }, "Services"))), __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 101
         },
         __self: this
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -272,35 +272,35 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 103
         },
         __self: this
       }, "Contact"))))), __jsx("div", {
         className: "others-option",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 110
         },
         __self: this
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 111
         },
         __self: this
       }, __jsx("a", {
         className: "btn btn-light",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 112
         },
         __self: this
       }, "Support")))))));
