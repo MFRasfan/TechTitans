@@ -54,6 +54,8 @@ class MainBanner extends Component {
                     </div>
                 </div>
             </div>
+
+            
         );
     }
 }

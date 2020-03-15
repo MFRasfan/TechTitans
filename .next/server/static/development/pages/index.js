@@ -109,6 +109,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../common/ActiveLink */ "./components/common/ActiveLink.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/mfrasfan/Documents/Coding/TechTitans/components/Layouts/DefaultStyle.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -118,6 +120,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
  // import * as Icon from 'react-feather';
+
+
+const ScrollLink = react_scroll__WEBPACK_IMPORTED_MODULE_4___default.a.ScrollLink;
 
 class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(...args) {
@@ -166,7 +171,7 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       id: "header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 47
       },
       __self: this
     }, __jsx("div", {
@@ -174,28 +179,28 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: `startp-nav ${layOutCls}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 48
       },
       __self: this
     }, __jsx("div", {
       className: "container",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 49
       },
       __self: this
     }, __jsx("nav", {
       className: "navbar navbar-expand-md navbar-light",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 50
       },
       __self: this
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 51
       },
       __self: this
     }, __jsx("a", {
@@ -203,7 +208,7 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       onClick: () => window.location.refresh(),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 52
       },
       __self: this
     }, __jsx("img", {
@@ -211,7 +216,7 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       alt: "logo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 56
       },
       __self: this
     }))), __jsx("button", {
@@ -225,14 +230,14 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       "aria-label": "Toggle navigation",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 60
       },
       __self: this
     }, __jsx("span", {
       className: "navbar-toggler-icon",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 69
       },
       __self: this
     })), __jsx("div", {
@@ -240,21 +245,21 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       id: "navbarSupportedContent",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 72
       },
       __self: this
     }, __jsx("ul", {
       className: "navbar-nav nav ml-auto",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
+        lineNumber: 73
       },
       __self: this
     }, __jsx("li", {
       className: "nav-item",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 74
       },
       __self: this
     }, __jsx("a", {
@@ -263,7 +268,7 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 75
       },
       __self: this
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -271,7 +276,7 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78
+        lineNumber: 80
       },
       __self: this
     }, __jsx("a", {
@@ -279,58 +284,70 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 81
       },
       __self: this
     }, "Home")))), __jsx("li", {
       className: "nav-item",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 87
       },
       __self: this
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
-      href: "",
+      href: "/about",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86
+        lineNumber: 88
       },
       __self: this
     }, __jsx("a", {
       className: "nav-link",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 87
-      },
-      __self: this
-    }, "About Us"))), __jsx("li", {
-      className: "nav-item",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 92
       },
       __self: this
+    }, "About Us")), __jsx(ScrollLink, {
+      to: "example-destination",
+      spy: true,
+      smooth: true,
+      duration: 500,
+      className: "some-class",
+      activeClass: "some-active-class",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96
+      },
+      __self: this
+    })), __jsx("li", {
+      className: "nav-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110
+      },
+      __self: this
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
       href: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 93
+        lineNumber: 111
       },
       __self: this
     }, __jsx("a", {
       className: "nav-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 112
       },
       __self: this
     }, "Services"))), __jsx("li", {
       className: "nav-item",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101
+        lineNumber: 119
       },
       __self: this
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -338,35 +355,35 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       href: "/contact",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 102
+        lineNumber: 120
       },
       __self: this
     }, __jsx("a", {
       className: "nav-link",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 103
+        lineNumber: 121
       },
       __self: this
     }, "Contact"))))), __jsx("div", {
       className: "others-option",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 110
+        lineNumber: 128
       },
       __self: this
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       href: "#",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111
+        lineNumber: 129
       },
       __self: this
     }, __jsx("a", {
       className: "btn btn-light",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 112
+        lineNumber: 130
       },
       __self: this
     }, "Support")))))));
@@ -1167,189 +1184,189 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "repair-about-area ptb-80",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8
+        lineNumber: 11
       },
       __self: this
     }, __jsx("div", {
       className: "container",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 12
       },
       __self: this
     }, __jsx("div", {
       className: "row",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 13
       },
       __self: this
     }, __jsx("div", {
       className: "col-lg-6",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 14
       },
       __self: this
     }, __jsx("div", {
       className: "repair-about-content",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 15
       },
       __self: this
     }, __jsx("span", {
       className: "sub-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 16
       },
       __self: this
     }, "About Us"), __jsx("h2", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 17
       },
       __self: this
     }, "We have 15 years of experience in repair services"), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 18
       },
       __self: this
     }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."), __jsx("ul", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 20
       },
       __self: this
     }, __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 21
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 21
       },
       __self: this
     }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 21
       },
       __self: this
     }), " Experienced Professionals")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 22
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 22
       },
       __self: this
     }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 22
       },
       __self: this
     }), " Expert Technical Skills")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 23
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 23
       },
       __self: this
     }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 23
       },
       __self: this
     }), " Excellent Reputation")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 24
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 24
       },
       __self: this
     }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 24
       },
       __self: this
     }), " Friendly Service")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 25
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 25
       },
       __self: this
     }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 25
       },
       __self: this
     }), " Trustworthy See Reviews")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 26
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 26
       },
       __self: this
     }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 26
       },
       __self: this
     }), " Affordable Diagnosis"))))), __jsx("div", {
       className: "col-lg-6",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 31
       },
       __self: this
     }, __jsx("div", {
       className: "repair-about-image",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 32
       },
       __self: this
     }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
       animation: "fadeInDown",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 33
       },
       __self: this
     }, __jsx("img", {
@@ -1358,14 +1375,14 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 34
       },
       __self: this
     })), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
       animation: "zoomIn",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 40
       },
       __self: this
     }, __jsx("img", {
@@ -1374,14 +1391,14 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 41
       },
       __self: this
     })), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
       animation: "fadeInUp",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 47
       },
       __self: this
     }, __jsx("img", {
@@ -1390,7 +1407,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 48
       },
       __self: this
     })), __jsx("img", {
@@ -1398,7 +1415,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 54
       },
       __self: this
     }), __jsx("img", {
@@ -1406,7 +1423,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "image",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 58
       },
       __self: this
     }))))));
@@ -4368,6 +4385,17 @@ module.exports = require("react-preloading-screen");
 /***/ (function(module, exports) {
 
 module.exports = require("react-redux");
+
+/***/ }),
+
+/***/ "react-scroll":
+/*!*******************************!*\
+  !*** external "react-scroll" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-scroll");
 
 /***/ }),
 

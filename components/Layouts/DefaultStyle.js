@@ -3,6 +3,8 @@ import { withRouter } from 'next/router';
 import { connect } from 'react-redux'
 import Link from '../common/ActiveLink'
 // import * as Icon from 'react-feather';
+import Scroll from 'react-scroll'
+const ScrollLink = Scroll.ScrollLink
 
 
 
@@ -81,12 +83,28 @@ class DefaultStyle extends React.Component {
                                         </a>
                                    
                                     </li>
-
+                                    
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="">
-                                            <a className="nav-link">About Us</a>
+                                    <Link activeClassName="active" href="/about">
+
                                             
-                                        </Link>
+
+<a className="nav-link">About Us</a>
+
+</Link>
+                                        
+                                    <ScrollLink 
+                                        to="example-destination" 
+                                         spy={true} 
+                                         smooth={true} 
+                                         duration={500} 
+                                         className='some-class' 
+                                         activeClass='some-active-class'
+                                    >
+                                 
+                                 </ScrollLink>
+                                        
+                                        
                                     </li>
                                     
                                     <li className="nav-item">

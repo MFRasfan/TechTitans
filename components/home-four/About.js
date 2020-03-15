@@ -5,6 +5,9 @@ import ReactWOW from 'react-wow'
 class About extends Component {
     render() {
         return (
+
+           
+
             <section className="repair-about-area ptb-80">
                 <div className="container">
                     <div className="row">
@@ -61,6 +64,7 @@ class About extends Component {
                     </div>
                 </div>
             </section>
+           
         );
     }
 }
